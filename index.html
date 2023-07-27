@@ -40,7 +40,7 @@
     <header class="container md: mx-auto">
         <!-- navbar menu -->
         <nav class="mt-2">
-            <div class="navbar bg-white md:bg-[#F85559] rounded-[600px]">
+            <div class="navbar bg-[#FFF] md:bg-[#F85559] rounded-[600px]">
                 <div class="flex-1">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -73,7 +73,7 @@
                     <a class="btn btn-ghost normal-case text-2xl md:text-white">Fruit Burst</a>
                 </div>
                 <div class="navbar-end">
-                    <div class="relative  hidden md:block lg:block">
+                    <div class="relative hidden md:block lg:block">
                         <input class="rounded-full py-2 pr-4 w-32 md:w-64 justify-end" type="text" placeholder="Search Here">
                     <div class="absolute inset-y-0 right-4 pl-3 flex items-center">
                         <i class="fas fa-search"></i>
@@ -193,25 +193,25 @@
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-end">
                         <div class="flex flex-col">
                             <span class="countdown text-5xl">
-                                <span style="--value:15;"></span>
+                                <span style="--value:29;"></span>
                             </span>
                             days
                         </div>
                         <div class="flex flex-col">
                             <span class="countdown text-5xl">
-                                <span style="--value:10;"></span>
+                                <span style="--value:15;"></span>
                             </span>
                             hours
                         </div>
                         <div class="flex flex-col">
                             <span class="countdown text-5xl">
-                                <span style="--value:24;"></span>
+                                <span style="--value:25;"></span>
                             </span>
                             min
                         </div>
                         <div class="flex flex-col">
                             <span class="countdown text-5xl">
-                                <span style="--value:9;"></span>
+                                <span style="--value:08;"></span>
                             </span>
                             sec
                         </div>
@@ -222,11 +222,12 @@
             <div class="my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- first card -->
                 <div class="card bg-[#FFF] border border-[#1212121A] rounded-lg shadow-xl">
-                    <figure class="px-10 pt-10">
+                    <figure class="px-10 pt-12">
                         <img src="./images/fruit6.png" alt="" class="rounded-xl" />
                     </figure>
-                    <div class="space-y-6 card-body items-center text-center">
+                    <div class="space-y-4 card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <hr class="border-b border-gray-400 w-3/4">
                         <p>Apples</p>
                         <div class="rating rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
@@ -244,10 +245,10 @@
                         </div>
                         <!-- modal 1 -->
                         <div class="card-actions">
-                            <button class="btn bg-white text-[#F85559] border-0 rounded-none"
+                            <button class="btn bg-white text-[#F85559] border-0 rounded-none capitalize"
                                 onclick="my_modal_1.showModal()">Details</button>
                             <dialog id="my_modal_1" class="modal">
-                                <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+                                <form method="dialog" class="modal-box w-11/12 max-w-lg">
                                     <figure class="px-10 pt-10">
                                         <img src="./images/fruit6.png" alt="" class="rounded-xl" />
                                     </figure>
@@ -292,8 +293,9 @@
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit7.png" alt="" class="rounded-xl" />
                     </figure>
-                    <div class="space-y-6 card-body items-center text-center">
+                    <div class="space-y-4 card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <hr class="border-b border-gray-400 w-3/4">
                         <p>Orange</p>
                         <div class="rating rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
@@ -311,10 +313,10 @@
                         </div>
                         <!-- modal 2 -->
                         <div class="card-actions">
-                            <button class="btn bg-white text-[#F85559] border-0 rounded-none"
+                            <button class="btn bg-white text-[#F85559] border-0 rounded-none capitalize"
                                 onclick="my_modal_2.showModal()">Details</button>
                             <dialog id="my_modal_2" class="modal">
-                                <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+                                <form method="dialog" class="modal-box w-11/12 max-w-lg">
                                     <figure class="px-10 pt-10">
                                         <img src="./images/fruit7.png" alt="" class="rounded-xl" />
                                     </figure>
@@ -359,8 +361,9 @@
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit8.png" alt="" class="rounded-xl" />
                     </figure>
-                    <div class="space-y-6 card-body items-center text-center">
+                    <div class="space-y-4 card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <hr class="border-b border-gray-400 w-3/4">
                         <p>Red Dragon</p>
                         <div class="rating rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
@@ -378,10 +381,10 @@
                         </div>
                         <!-- modal 3 -->
                         <div class="card-actions">
-                            <button class="btn bg-white text-[#F85559] border-0 rounded-none"
+                            <button class="btn bg-white text-[#F85559] border-0 rounded-none capitalize"
                                 onclick="my_modal_3.showModal()">Details</button>
                             <dialog id="my_modal_3" class="modal">
-                                <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+                                <form method="dialog" class="modal-box w-11/12 max-w-lg">
                                     <figure class="px-10 pt-10">
                                         <img src="./images/fruit8.png" alt="" class="rounded-xl" />
                                     </figure>
@@ -426,10 +429,11 @@
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit9.png" alt="" class="rounded-xl" />
                     </figure>
-                    <div class="space-y-6 card-body items-center text-center">
+                    <div class="space-y-4 card-body items-center text-center">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
+                        <hr class="border-b border-gray-400 w-3/4">
                         <p>Banana</p>
-                        <div class="rating rating-lg rating-half">
+                        <div class=" rating rating-lg rating-half">
                             <input type="radio" name="rating-10" class="rating-hidden" />
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
                             <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
@@ -445,10 +449,10 @@
                         </div>
                         <!-- modal 4 -->
                         <div class="card-actions">
-                            <button class="btn bg-white text-[#F85559] border-0 rounded-none"
+                            <button class="btn bg-white text-[#F85559] border-0 rounded-none capitalize"
                                 onclick="my_modal_4.showModal()">Details</button>
                             <dialog id="my_modal_4" class="modal">
-                                <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+                                <form method="dialog" class="modal-box w-11/12 max-w-lg">
                                     <figure class="px-10 pt-10">
                                         <img src="./images/fruit9.png" alt="" class="rounded-xl" />
                                     </figure>
@@ -666,10 +670,6 @@
             </div>
         </div>
     </footer>
-
-    <section class="container mx-auto">
-        
-    </section>
 </body>
 
 </html>
